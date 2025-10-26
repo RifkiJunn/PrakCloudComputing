@@ -1,4 +1,4 @@
-ipeline { 
+pipeline { 
   agent any 
   environment { 
     IMAGE_NAME = 'rifkijunn/simple-app' 
@@ -27,3 +27,4 @@ ipeline {
   } 
   post { always { echo 'Selesai build' } } 
 } 
+
